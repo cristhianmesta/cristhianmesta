@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+$font-principal:  'DM Sans','Segoe UI', Tahoma, sans-serif;
+$font-title: 'Quicksand','DM Serif Display', sans-serif;
+$font-subtitle: 'DM Sans','Segoe UI', Tahoma, sans-serif;
+$font-mono: 'DM Mono', monospace;
+
+$color-logo-principal: rgb(30,30,48);
+$color-logo-secondary: rgb(252,211,89);
+
+$color-bg-ligth: #fafafa;
+
+
+$color-text-strong: #2e2f3d;
+$color-text-normal: #404154;
+$color-text-light: #9597b1;
+
+$color-text-red         : #ff3e3e;
+$color-text-green       : #03ac49;
+$color-text-yellow      : #fff78b;
+$color-text-purple      : #d2a1ff;
+$color-text-blue        : #1e78ff;
+$color-text-orange      : #ff9e1f;
+$color-text-turquoise   : #6fddff;
+
+$theme-colors: (
+  "red"         : $color-text-red,
+  "green"       : $color-text-green,
+  "yellow"      : $color-text-yellow,
+  "purple"      : $color-text-purple,
+  "blue"        : $color-text-blue,
+  "orange"      : $color-text-orange,
+  "turquoise"   : $color-text-turquoise,
+);
+
+$theme-colors-ligth: (
+  "blue"         : (#0c8add, rgb(194, 231, 255)),
+);
+
+$theme-social: (
+  "email"       : ( #f86464, rgb(252, 225, 225)), 
+  "linkedin"    : ( #0a66c2, rgb(187, 215, 243)),
+  "twitter"     : ( #1d9bf0, rgb(209, 236, 255)),
+  "github"      : ( #24292f, rgb(202, 208, 214)),
+);
+
+
+$color-link-text: #0c8add;
+$color-link-bg: #c2e7ff;
+
+$breakpoint-extrawidescreen : 1201px;
+$breakpoint-widescreen      : 1025px;
+$breakpoint-smallscreen     : 769px;
+$breakpoint-tablet          : 481px;
+$breakpoint-mobile          : 320px;
+

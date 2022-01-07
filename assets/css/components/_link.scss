@@ -1,0 +1,30 @@
+@each $item, $colors in $theme-social {
+  $fontcolor: nth($colors, 1);
+  $bgcolor: nth($colors, 2);
+
+  .link-#{$item} {
+    @extend %link-shared;
+    color: $fontcolor;
+    border-bottom: 5px solid $bgcolor;
+  
+    &:hover{
+      background-color: $bgcolor;
+    }
+  }
+}
+
+@each $item, $colors in $theme-colors-ligth {
+  $fontcolor: nth($colors, 1);
+  $bgcolor: nth($colors, 2);
+
+  .link-#{$item} {
+    @extend %link-shared;
+    border-bottom: 5px solid $bgcolor;
+  
+    &:hover{
+      color: $fontcolor;
+      background-color: $bgcolor;
+    }
+  }
+}
+  
